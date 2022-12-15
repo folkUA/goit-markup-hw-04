@@ -213,7 +213,7 @@ h2.title {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  outline: 10px dashed tomato;
+
 
   background-color: var(--color-dark);
   background-image: linear-gradient(to top left, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -241,13 +241,13 @@ h2.title {
   border: 0;
 }
 
-.hero-btn:hover.btn,
-.hero-btn:focus.btn {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+.hero-btn:hover,
+.hero-btn:focus {
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.hero-btn:active.btn {
+.hero-btn:active {
   background-color: var(--color-accent-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -271,7 +271,6 @@ h2.title {
   width: 264px;
   height: 112px;
   background-color: var(--color-light);
-  outline: 1px solid tomato;
   justify-content: center;
   align-items: center;
 
@@ -321,7 +320,7 @@ h2.title {
 .team-item-container {
   padding-top: 32px;
   padding-bottom: 32px;
-  outline: 1px solid tomato;
+  
 }
 
 .team-item-container > .description {
@@ -332,11 +331,11 @@ h2.title {
   display: flex;
   padding: 4px 16px;
   margin: 0 auto;
-  outline: 1px dashed tomato;
+ 
 }
 
 .team-icon-item {
-  outline: 1px solid black;
+  
 }
 
 .team-icon-item:not(:last-child) {
@@ -363,9 +362,6 @@ h2.title {
 
 /* ---Customers section--- */
 
-.customers > .container {
-  outline: 1px solid tomato;
-}
 
 .container > .title {
   font-weight: 700;
@@ -374,7 +370,7 @@ h2.title {
 .customers-list {
   display: flex;
 
-  outline: 1px solid tomato;
+
 }
 
 .customers-item:not(:last-child) {
@@ -467,7 +463,7 @@ h2.title {
   margin-left: 120px;
   width: 208px;
   height: 80px;
-  outline: 1px solid tomato;
+  
 }
 
 .social-media-box > .name {
@@ -492,7 +488,7 @@ h2.title {
 .social-media-list .link {
   display: flex;
 
-  outline: 1px solid tomato;
+ 
 }
 
 .footer-icon-link {
@@ -566,6 +562,13 @@ h2.title {
 
 .content-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+
+.content-item:hover,
+.content-item:focus {
+  cursor: pointer;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .content-item-text {
