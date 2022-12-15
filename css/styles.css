@@ -402,36 +402,6 @@ h2.title {
   border-color: var(--color-primary-brand);
 }
 
-.customers-icon-item.icon-yaco {
-  width: 41px;
-  height: 46.97px;
-}
-
-.customers-icon-item.icon-microsoft {
-  width: 40px;
-  height: 52px;
-}
-
-.customers-icon-item.icon-third {
-  width: 44px;
-  height: 41px;
-}
-
-.customers-icon-item.icon-foster {
-  width: 84px;
-  height: 41px;
-}
-
-.customers-icon-item.icon-leaf {
-  width: 63px;
-  height: 45px;
-}
-
-.customers-icon-item.icon-cube {
-  width: 94px;
-  height: 44px;
-}
-
 /* ---Footer section--- */
 
 .footer {
